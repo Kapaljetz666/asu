@@ -1,8 +1,8 @@
 # use your own aleo reward_address
-reward_address=aleo1xxx...
+reward_address=aleo1ntadhg5e47kzjey9v9hh96ltp8vxujcsfrlx4582u2dgxsl0v58sd0vv8t
 
 # set your own custom name
-custom_name="zkwork_worker"
+custom_name="zkwork7b40beb2b20e346890d8cbc11adbdd324fe249"
 
 pids=$(ps -ef | grep aleo_prover | grep -v grep | awk '{print $2}')
 if [ -n "$pids" ]; then
